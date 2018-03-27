@@ -17,9 +17,17 @@
 	same goes for python/ruby targets, anything significant, but we don't want to implement single-line VDB
 
 	ideally atom should match the info given my emerge --info <pkg> in a more compact and parseable format
-	
+
 * extra:
 	`event_failed? (short reason)`
+
+
+### example emerge --info <pkg> output
+```
+sys-apps/portage-mgorny-2.3.24.4::gentoo was built with the following:
+USE="(ipc) native-extensions xattr -build (-selinux)" ABI_X86="(64)" PYTHON_TARGETS="python2_7 python3_5 -pypy -python3_4 -python3_6"
+```
+
 
 ### atom examples:
 
