@@ -15,7 +15,9 @@
 	`iten_name_package? ${CATEGORY}/${PF}:${SLOT}:${REPO}[-flag(-) flag(+) abi_x86_64(+) abi_x86_32(-)]`
 
 	same goes for python/ruby targets, anything significant, but we don't want to implement single-line VDB
+
 	ideally atom should match the info given my emerge --info <pkg> in a more compact and parseable format
+	
 * extra:
 	`event_failed? (short reason)`
 
