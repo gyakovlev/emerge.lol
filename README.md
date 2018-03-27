@@ -42,8 +42,11 @@ sys-apps/portage-mgorny-2.3.24.4::gentoo[USE="ipc native-extensions xattr=" ABI_
 ```
 
 Need to agree which kind of package info we put here. It should contain enough information to answer a simple question: 
-	* which package using was emerged on $date and what kind of USE flags it had.
-	Tracking cflags sometimes can be useful to find which packages have not been rebuild with new CFLAGS, but it's too much info for a log file.
+
+* which package using was emerged on $date and what kind of USE flags it had.
+
+Tracking cflags sometimes can be useful to find which packages have not been rebuild with new CFLAGS, but it's too much info for a log file.
+
 Some time ago there was a discussion on dev@g.o about binpkg name format for different use flags, that discussion can contain valuable ideas, find and check it.
 
 
