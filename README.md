@@ -49,6 +49,8 @@ Tracking cflags sometimes can be useful to find which packages have not been reb
 
 Some time ago there was a discussion on dev@g.o about binpkg name format for different use flags, that discussion can contain valuable ideas, find and check it.
 
+Proposed format below is way too verbose, shorten.
+
 
 ### sync log format 
 
